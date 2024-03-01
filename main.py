@@ -186,9 +186,9 @@ class OnlineHasten:
 
     ##################  PACKING  ##################
     def generatewindow(self) -> None:
-        self.window.geometry("700x250")
+        self.window.geometry("475x175")
         self.window.configure(bg="#FFFFFF")
-        self.window.minsize(width=700, height=250)
+        self.window.minsize(width=475, height=175)
 
     def packcontainer(self) -> None:
         self.title_lbl.pack(side=TOP)
